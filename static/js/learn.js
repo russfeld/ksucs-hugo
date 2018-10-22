@@ -175,7 +175,7 @@ jQuery(document).ready(function() {
 
     // clipboard
     var clipInit = false;
-    //russfeld will only add clipboard to pre code blocks 
+    //russfeld will only add clipboard to pre code blocks
     //and not all inline code blocks
     $('pre code').each(function() {
         var code = $(this),

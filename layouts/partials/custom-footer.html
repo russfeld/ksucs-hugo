@@ -1,0 +1,9 @@
+<!-- Partial intended to be overwritten with tags loaded at the end of the page loading (usually for Javascript)
+<script>
+    console.log("running some javascript");
+</script>
+-->
+{{ if (.HasShortcode "encrypt") }}
+<script src="{{"js/sjcl.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"js/encrypt.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+{{ end }}

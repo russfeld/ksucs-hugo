@@ -16,8 +16,8 @@
     margin: 2px 0 -2px 0;
 }
 body {
-    background: #fff;
-    color: #777;
+    background: #000;
+    color: #fff;
 }
 body #chapter h1 {
     font-size: 3.5rem;
@@ -49,11 +49,13 @@ pre {
 b, strong, label, th {
     font-weight: 600;
 }
+/*
 .default-animation, #header #logo-svg, #header #logo-svg path, #sidebar, #sidebar ul, #body, #body .padding, #body .nav {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+*/
 #grav-logo {
     max-width: 60%;
 }
@@ -301,7 +303,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body {
     position: relative;
-    margin-left: 300px;
+    margin-left: 0px;
     min-height: 100%;
 }
 #body img, #body .video-container {
@@ -325,12 +327,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border: 1px solid #ccc;
 }
 #body .padding {
-    padding: 1rem 2rem 1rem;
+    padding: 1rem 1rem 1rem;
 }
+/*
 @media only all and (max-width: 59.938em) {
     #body .padding {
         position: static;
-        padding: 15px 2rem;
+        padding: 15px 3rem;
     }
 }
 @media only all and (max-width: 47.938em) {
@@ -338,6 +341,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
         padding: 5px 1rem;
     }
 }
+*/
 #body h1 + hr {
     margin-top: -1.7rem;
     margin-bottom: 3rem;
@@ -435,7 +439,7 @@ body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     line-height: 1.6;
-    font-size: 18px !important;
+    font-size: 50px !important;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
 }
@@ -443,7 +447,7 @@ h2, h3, h4, h5, h6 {
     /* font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; */
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-rendering: optimizeLegibility;
-    color: #5e5e5e;
+    color: #fff;
     font-weight: 400;
     letter-spacing: -1px;
 }
@@ -452,20 +456,20 @@ h1 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     text-align: center;
     text-transform: uppercase;
-    color: #222;
+    color: #fff;
     font-weight: 200;
 }
 blockquote {
-    border-left: 10px solid #F0F2F4;
+    border-left: 10px solid #fff;
 }
 blockquote p {
     font-size: 1.1rem;
-    color: #999;
+    color: #fff;
 }
 blockquote cite {
     display: block;
     text-align: right;
-    color: #666;
+    color: #fff;
     font-size: 1.2rem;
 }
 div.notices {
@@ -478,7 +482,7 @@ div.notices p {
     font-size: 1rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    color: #666;
+    color: #fff;
 }
 div.notices p:first-child:before {
     position: absolute;
@@ -615,26 +619,6 @@ code, kbd, pre, samp {
     font-family: "Consolas", menlo, monospace;
     font-size: 96%;
 }
-
-/* russfeld */
-kbd {
-  padding:0.1em 0.6em;
-  border:1px solid #ccc;
-  background-color:#f7f7f7;
-  -moz-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
-  -webkit-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
-  box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  border-radius:3px;
-  display:inline-block;
-  margin:0 0.1em;
-  text-shadow:0 1px 0 #fff;
-  line-height:1.4;
-  white-space:nowrap;
-}
-/* russfeld */
-
 code {
     border-radius: 2px;
     white-space: nowrap;
@@ -666,7 +650,7 @@ pre code {
     border: 0;
     padding: 0;
     margin: 0;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 hr {
     border-bottom: 4px solid #F0F2F4;
@@ -1016,7 +1000,7 @@ td {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 50%;
+    width: 70%;
     display: inline-block;
     float: left;
 }
@@ -1044,6 +1028,7 @@ td {
   width: 100%;
 }
 
+/*
 @media only all and (max-width: 47.938em) {
     #sidebar {
         width: 300px;
@@ -1074,6 +1059,8 @@ td {
         cursor: pointer;
     }
 }
+*/
+
 .copy-to-clipboard {
     background-image: url(../images/clippy.svg);
     background-position: 50% 50%;
@@ -1153,8 +1140,62 @@ pre .copy-to-clipboard:hover {
     text-align: left;
 }
 
-.github-link {
-  margin-left: 5px;
+
+
+:root{
+
+    --MAIN-TEXT-color:#fff; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #fff; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#793CCC; /* Color of links */
+    --MAIN-LINK-HOVER-color:#512888; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #793CCC; /* color of anchors on titles */
+
+}
+
+body {
+    color: var(--MAIN-TEXT-color) !important;
+}
+
+textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+h2, h3, h4, h5 {
+    color: var(--MAIN-TITLES-TEXT-color) !important;
+}
+
+a {
+    color: var(--MAIN-LINK-color);
+}
+
+.anchor {
+    color: var(--MAIN-ANCHOR-color);
+}
+
+a:hover {
+    color: var(--MAIN-LINK-HOVER-color);
+}
+
+
+#body a.highlight:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+    background-color: var(--MAIN-LINK-HOVER-color);
+}
+
+#body {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 /*# sourceMappingURL=theme.css.map */
