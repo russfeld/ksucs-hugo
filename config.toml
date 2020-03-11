@@ -23,6 +23,11 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
   plainIDAnchors = true
   hrefTargetBlank = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Custom output format for iframes
 [outputFormats]
   [outputFormats.Iframeable]
