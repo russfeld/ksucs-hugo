@@ -566,6 +566,55 @@ grunt.initConfig({
 };
 ```
 
+
+Fenced code can also have line numbers, highlighting, and more.
+
+<pre>
+```js {linenos=table,hl_lines=[8,"15-17"],linenostart=199}
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: 'docs/assets',
+      data: 'src/data/*.{json,yml}',
+      helpers: 'src/custom-helpers.js',
+      partials: ['src/partials/**/*.{hbs,md}']
+    },
+    pages: {
+      options: {
+        layout: 'default.hbs'
+      },
+      files: {
+        './': ['src/templates/pages/index.hbs']
+      }
+    }
+  }
+};
+```
+</pre>
+
+Renders to:
+
+```js {linenos=table,hl_lines=[8,"15-17"],linenostart=199}
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: 'docs/assets',
+      data: 'src/data/*.{json,yml}',
+      helpers: 'src/custom-helpers.js',
+      partials: ['src/partials/**/*.{hbs,md}']
+    },
+    pages: {
+      options: {
+        layout: 'default.hbs'
+      },
+      files: {
+        './': ['src/templates/pages/index.hbs']
+      }
+    }
+  }
+};
+```
+
 ## Keyboard Keys
 
 Keyboard keys can be indicated using the `<kbd>` tag.
