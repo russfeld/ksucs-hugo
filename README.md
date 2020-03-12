@@ -14,7 +14,7 @@ Major added features are the addition of [Reveal.js](https://github.com/hakimel/
 
 ## Installation
 
-Install Hugo > 0.47 on your system. I recommend using Linux or Windows Subsystem for Linux.
+Install Hugo > 0.60 on your system. I recommend using Linux or Windows Subsystem for Linux.
 
 Clone this repository and edit your content.
 
