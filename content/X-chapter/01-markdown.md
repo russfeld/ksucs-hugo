@@ -817,6 +817,14 @@ Add a HTTP `classes` parameter to the link image to add CSS classes. `shadow`and
 ```
 ![stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg?width=40pc&classes=border,shadow)
 
+### Inline Images
+
+```markdown
+Before Text <img src="https://via.placeholder.com/150x150" style="padding: 0px; margin: 0px; display: inline !important;"> After Text
+```
+
+Before Text <img src="https://via.placeholder.com/150x150" style="padding: 0px; margin: 0px; display: inline !important;"> After Text
+
 ## YouTube
 
 ```markdown
