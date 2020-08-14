@@ -747,6 +747,30 @@ Content for chapter one.
 ```
 **NOTE** that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
 
+## Mathjax
+
+This template supports Mathjax.
+
+```markdown
+Inline Example: $T = k * (SLOC)^{(1+x)}$
+```
+
+Renders to:
+
+$T = k * (SLOC)^{(1+x)}$
+
+```markdown
+$$
+T = k * (SLOC)^{(1+x)}
+$$
+```
+
+Renders to:
+
+$$
+T = k * (SLOC)^{(1+x)}
+$$
+
 ## Images {#images}
 Images have a similar syntax to links but include a preceding exclamation point.
 
