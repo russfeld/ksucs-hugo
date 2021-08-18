@@ -1,15 +1,11 @@
 ---
-title: "Chapter 0 Notices"
-pre: "3."
+title: "Notices"
+pre: "1. "
 weight: 30
-date: 2021-08-10T01:53:26-05:00
+date: 2018-08-24T10:53:26-05:00
 ---
 
-## Notice
-
-The old mechanism for notices overriding the block quote syntax (`>>>`) has been deprecated.  Notices are now handled via a dedicated plugin called [Markdown Notices](https://github.com/getgrav/grav-plugin-markdown-notices). However, the old syntax works with this template and is used in a number of places, so it remains in this documentation.
-
-The notice shortcode shows 4 types of disclaimers to help you structure your page.
+The CSS for the [notice](https://learn.netlify.app/en/shortcodes/notice/) shortcode has been modified, as well as the shortcode itself. The CSS has been updated to allow for full use of markdown within the notice (something that was not possible in the original). This is probably the single most modified part of this theme.
 
 ### Note
 
@@ -57,7 +53,7 @@ A tip disclaimer
 
 ```
 {{%/* notice warning */%}}
-An warning disclaimer
+A warning disclaimer
 {{%/* /notice */%}}
 ```
 
@@ -67,7 +63,39 @@ renders as
 A warning disclaimer
 {{% /notice %}}
 
-## Notes with More Formatting
+### No Iframe
+
+```
+{{%/* notice noiframe */%}}
+A disclaimer that will not be visible on the embedded version of the page
+{{%/* /notice */%}}
+```
+
+renders as
+
+{{% notice noiframe %}}
+A disclaimer that will not be visible on the embedded version of the page
+{{% /notice %}}
+
+That item will not render on the [embed](./embed.html) version of this page.
+
+### Custom Title
+
+The title on a notice can be customized in the third parameter. The second parameter sets the HTML `id` of the element - it is maintained for compatibility with the overall theme.
+
+```
+{{%/* notice note note-1 "Custom Title" */%}}
+A notice disclaimer
+{{%/* /notice */%}}
+```
+
+renders as
+
+{{% notice note note-1 "Custom Title" %}}
+A notice disclaimer
+{{% /notice %}}
+
+#### Full Markdown Support
 
 <pre>
 {{%/* notice note */%}}
@@ -101,8 +129,8 @@ public class Java {
 }
 ```
 
-
 {{%/* /notice */%}}
+
 </pre>
 
 renders as
@@ -137,54 +165,5 @@ public class Java {
     }
 }
 ```
-
-{{% /notice %}}
-
-
-{{% notice note %}}
-
-# Header 1
-
-text
-
-{{% /notice %}}
-
-{{% notice note %}}
-
-## Header 2
-
-text
-
-{{% /notice %}}
-
-{{% notice note %}}
-
-### Header 3
-
-text
-
-{{% /notice %}}
-
-{{% notice note %}}
-
-#### Header 4
-
-text
-
-{{% /notice %}}
-
-{{% notice note %}}
-
-##### Header 5
-
-text
-
-{{% /notice %}}
-
-{{% notice note %}}
-
-###### Header 6
-
-text
 
 {{% /notice %}}
