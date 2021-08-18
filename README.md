@@ -42,4 +42,4 @@ There is also a "teleprompter" type that creates a mirrored and simplified versi
 
 ## Questions?
 
-Contact [Russell Feldhausen](https://russfeld.me) - russfeld@ksu.edu
+Contact [Russell Feldhausen](https://russfeld.me) - russfeld@ksu.edu 
