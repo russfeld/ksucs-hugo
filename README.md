@@ -14,9 +14,9 @@ Major added features are the addition of [Reveal.js](https://github.com/hakimel/
 
 ## Installation
 
-Install Hugo > 0.60 on your system. I recommend using Linux or Windows Subsystem for Linux.
+Install Hugo > 0.80 on your system. I recommend using Linux or Windows Subsystem for Linux.
 
-Clone this repository and edit your content.
+Clone this repository and edit your content. After cloning, run `git submodule init` followed by `git pull --recurse-submodules` to load the theme.
 
 To view the content locally, use the `hugo server` command and visit http://localhost:1313 to view a local version of your site
 
@@ -37,6 +37,8 @@ The Chapter 1 example gives a sample Reveal.js slideshow. Note that the frontmat
 By default, any files not present in the top level directories will be read from the corresponding directory in `themes/hugo-theme-learn`. So, the only files present in the `layouts` and `static` folder are those which are customized from the default theme, or new ones added for this framework. Most customized files have short comments discussing the edits made, or you can diff them with the corresponding theme file to get a summary of the changes.
 
 The biggest addition is the "iframeable" type. For each content page (but not the chapter index pages nor the homepage), a second version of the page will be created at the same URL with a filename `embed.html` instead of `index.html`. This version of the file does not have any of the navigation elements on it, and it is perfect for embedding in an IFrame for use in an LMS.
+
+There is also a "teleprompter" type that creates a mirrored and simplified version of each content page, meant to be used along with a teleprompter. This will be created at the same URL with a filename `tele.html`. It includes JavaScript code to set the scroll speed of the page by clicking it with the mouse, or it can be scrolled manually.
 
 ## Questions?
 
