@@ -20,3 +20,7 @@ jobs:
       
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ksucs-hugo:$(date +%s)
+      
+    - name: Push Docker Image
+      run: docker push russfeld/ksucs-hugo:tagname 
+
