@@ -1,5 +1,7 @@
 # K-State CS Hugo Framework
 
+[![Docker Image CI](https://github.com/russfeld/ksucs-hugo/actions/workflows/docker-image.yml/badge.svg)](https://github.com/russfeld/ksucs-hugo/actions/workflows/docker-image.yml) 
+
 This is a [Hugo](https://gohugo.io/)-based web framework for K-State CS lecture content. It uses a lightly adapted version of the [Hugo-theme-learn](https://learn.netlify.com/en/) theme called [ksucs-hugo-theme](https://github.com/russfeld/ksucs-hugo-theme)
 
 Major added features are the addition of [Reveal.js](https://github.com/hakimel/reveal.js/) slideshow framework, and the creation of an embeddable version of content pages for use with IFrames in [Canvas](https://www.instructure.com/) and other learning management systems.
