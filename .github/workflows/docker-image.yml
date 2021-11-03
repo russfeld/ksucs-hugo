@@ -42,5 +42,6 @@ jobs:
           url: 'https://watchtower.russfeld.me/v1/update'
           method: 'GET'
           bearerToken: ${{ secrets.DEPLOY_TOKEN }}
+          timeout: 120000
       - name: Show Response
         run: echo ${{ steps.request.outputs.response }}
