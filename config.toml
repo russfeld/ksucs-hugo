@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "K-State CS Hugo Framework"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "ksucs-hugo-theme"
+theme = ["ksucs-hugo-theme", "plausible-hugo"]
 
 # For search functionality
 [outputs]
@@ -42,3 +42,9 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
     mediaType = "text/html"
     isPlainText = false
     isHtml = true
+
+## Plausible config
+[params.plausible]
+  enable = true  # Whether to enable plausible tracking
+  domain = "ksucs-hugo.russfeld.me"  # Plausible "domain" name/id in your dashboard
+  selfhosted_domain = "plausible.russfeld.me"
