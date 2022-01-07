@@ -9,10 +9,13 @@ on:
 jobs:
 
   build:
-
     runs-on: ubuntu-latest
-
     steps:
+    - name: Discord New Commit
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+
     - uses: actions/checkout@v2
     
     - name: Update theme
@@ -35,6 +38,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Discord Deploy
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "Build Complete! Starting Deploy..."
       - name: Deploy Stage
         id: request
         uses: fjogeleit/http-request-action@master
