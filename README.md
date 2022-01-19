@@ -44,7 +44,7 @@ There is also a "teleprompter" type that creates a mirrored and simplified versi
 
 ## Docker
 
-This is also dockerized. See the sidebar for packaged releases of this test website.
+This is also dockerized. See the sidebar for packaged releases of this test website. The Dockerfile includes details on the setup. 
 
 ## Questions?
 
