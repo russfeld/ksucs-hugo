@@ -42,6 +42,10 @@ The biggest addition is the "iframeable" type. For each content page (but not th
 
 There is also a "teleprompter" type that creates a mirrored and simplified version of each content page, meant to be used along with a teleprompter. This will be created at the same URL with a filename `tele.html`. It includes JavaScript code to set the scroll speed of the page by clicking it with the mouse, or it can be scrolled manually.
 
+## Docker
+
+This is also dockerized. See the sidebar for packaged releases of this test website.
+
 ## Questions?
 
 Contact [Russell Feldhausen](https://russfeld.me) - russfeld@ksu.edu 
