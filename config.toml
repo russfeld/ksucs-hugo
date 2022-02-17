@@ -12,7 +12,7 @@ page = [ "HTML", "Iframeable", "Teleprompter"]
 section = [ "HTML", "Iframeable", "Teleprompter"]
 
 [params]
-  editURL = "https://gitlab.cs.ksu.edu/russfeld/ksucs-hugo/tree/master/content/"
+  editURL = "https://github.com/russfeld/ksucs-hugo/tree/master/content/"
   description = "K-State CS Hugo Framework"
   author = "Russell Feldhausen"
   showVisitedLinks = false
