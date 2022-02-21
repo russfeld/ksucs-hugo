@@ -111,7 +111,7 @@ gantt
 
 ### Class example
 
-    {{</* mermaid */>}}
+    {{</* mermaid zoom="2" */>}}
     classDiagram
       Class01 <|-- AveryLongClass : Cool
       Class03 *-- Class04
@@ -131,7 +131,7 @@ gantt
 renders as
 
 
-{{<mermaid>}}
+{{<mermaid zoom="2">}}
 classDiagram
   Class01 <|-- AveryLongClass : Cool
   Class03 *-- Class04
