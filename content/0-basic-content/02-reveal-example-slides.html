@@ -66,12 +66,11 @@ hidden: true
   <pre class="stretch" style="font-size: 0.5em;"><code class="java">// Load required classes
 import java.util.Scanner;
 import java.io.File;
-
 public class Conditionals{
+  
   public static void main(String[] args) throws Exception{
     // Scanner variable
     Scanner reader;
-
     // If an argument is present, we are reading from a file
     // specified in args[0]
     if(args.length > 0){
@@ -80,7 +79,6 @@ public class Conditionals{
     }else{
       reader = new Scanner(System.in);
     }
-
     int x = reader.nextInt();
     System.out.println(x);
   }

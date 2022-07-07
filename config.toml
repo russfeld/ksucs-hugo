@@ -55,28 +55,28 @@ theme = ["hugo-theme-relearn", "plausible-hugo"]
   # If set to false, load the MathJax module on every page regardless if a MathJax shortcode is present
   disableMathJax = true
   # Specifies the remote location of the MathJax js
-  customMathJaxURL = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  # customMathJaxURL = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
   # Initialization parameter for MathJax, see MathJax documentation
-  mathJaxInitialize = "{}"
+  # mathJaxInitialize = "{}"
   # If set to false, load the Mermaid module on every page regardless if a Mermaid shortcode or Mermaid codefence is present
   disableMermaid = true
   # Specifies the remote location of the Mermaid js
-  customMermaidURL = "https://unpkg.com/mermaid/dist/mermaid.min.js"
+  # customMermaidURL = "https://unpkg.com/mermaid/dist/mermaid.min.js"
   # Initialization parameter for Mermaid, see Mermaid documentation
-  mermaidInitialize = "{ \"theme\": \"default\" }"
+  # mermaidInitialize = "{ \"theme\": \"default\" }"
   # If set to false, load the Swagger module on every page regardless if a Swagger shortcode is present
   disableSwagger = true
   # Specifies the remote location of the RapiDoc js
-  customSwaggerURL = "https://unpkg.com/rapidoc/dist/rapidoc-min.js"
+  # customSwaggerURL = "https://unpkg.com/rapidoc/dist/rapidoc-min.js"
   # Initialization parameter for Swagger, see RapiDoc documentation
-  swaggerInitialize = "{ \"theme\": \"light\" }"
+  # swaggerInitialize = "{ \"theme\": \"light\" }"
   # Hide Next and Previous page buttons normally displayed full height beside content
   disableNextPrev = false
   # Order sections in menu by "weight" or "title". Default to "weight";
   # this can be overridden in the pages frontmatter
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Eg. can be "red", "blue", "green" or an array like [ "blue", "green" ].
-  themeVariant = ["ksu-light", "ksu-dark"]
+  themeVariant = ["light-theme", "dark-theme"]
   # Change the title separator. Default to "::".
   # titleSeparator = "-"
   # If set to true, the menu in the sidebar will be displayed in a collapsible tree view.
