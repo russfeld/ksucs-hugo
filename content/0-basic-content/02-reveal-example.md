@@ -2,7 +2,6 @@
 title: "Reveal.js Example"
 pre: "2. "
 weight: 20
-date: 2018-08-24T10:53:26-05:00
 ---
 
 ### Resources
@@ -11,11 +10,11 @@ date: 2018-08-24T10:53:26-05:00
 
 ### Info
 
-This theme includes a special template for developing presentations using [Reveal.js](https://github.com/hakimel/reveal.js/).
+This theme includes a special template for developing presentations using [Reveal.js](https://revealjs.com/).
 
 To do this, there are a few steps:
 
-1. Create a markdown file with the `.md` file extension
+1. Create an html file with the `.html` file extension
 2. Use the following frontmatter:
 
 ```yaml
@@ -25,7 +24,7 @@ hidden: true
 ---
 ```
 
-In that markdown file, write the contents of the Reveal.js presentation. Each slide should be contained in a `<section>` tag.
+In that file, write the contents of the Reveal.js presentation. Each slide should be contained in a `<section>` tag.
 
 The contents of each slide is simply HTML, and pretty much any standard HTML tag can be used. Custom CSS can also be added via the `style` attribute on individual elements.
 

@@ -2,16 +2,17 @@
 title: "Frontmatter"
 pre: "1. "
 weight: 10
-date: 2018-08-24T10:53:26-05:00
 ---
 
 {{% notice note %}}
 
-This content details additions to the the original version in the [Hugo Theme Learn Documentation](https://learn.netlify.app/en/cont/pages/#front-matter-configuration).
+This content details additions to the the original version in the [Hugo Relearn Theme Documentation](https://mcshelby.github.io/hugo-theme-relearn/cont/pages/#frontmatter-configuration).
 
 {{% /notice %}}
 
 ## Front Matter configuration
+
+<!-- TODO Deprecated? 
 
 The following items are unique to this theme.
 
@@ -23,6 +24,10 @@ section = false
 ```
 
 The **section** item tells Hugo to use a slightly different CSS layout on the rendered page (similar to a **chapter** but with different text formatting).
+
+-->
+
+Instead of using `LastModifierDisplayName` and `LastModifierEmail`, this site is instead configured to use [Hugo Git Info Variables](https://gohugo.io/variables/git/) to pull that content from the git repository storing this website. 
 
 ### Reveal.js Slides
 

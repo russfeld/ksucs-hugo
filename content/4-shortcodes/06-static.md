@@ -2,15 +2,14 @@
 title: "Static"
 pre: "6. "
 weight: 80
-date: 2021-08-10T01:53:26-05:00
 ---
 
-The static shortcode will create links to files in the `static` folder inside of the `content` folder.
+The `static` shortcode has been deprecated. All static content should be stored in the `static` folder outside of `content`, and with the `canonifyURLs` option set to `true` in the site config, they can be referenced directly at the root of the site.
+
+For example, the file at `/static/images/core-logo-on-white.svg` can be referenced using:
 
 ```
-![Image Link]({{</* static "/images/original.png" */>}})
+![Core Logo](/images/core-logo-on-white.svg)
 ```
 
-renders as
-
-![Image Link](/images/original.png)
+![Core Logo](/images/core-logo-on-white.svg)

@@ -1,42 +1,12 @@
 ---
-title: "Link"
+title: "Links"
 pre: "4. "
 weight: 60
-date: 2021-08-10T01:53:26-05:00
 ---
 
-The link shortcode simply creates a link with the `target="_blank"` HTML attribute. Notice it uses angle brackets instead of percent in the shortcode tag. This prevents additional processing of the URL.
+The `link` shortcode from the previous template has been deprecated. Instead, this template will now render links in two ways:
 
-### Simple
+1. If the link `href` contains `http`, then it assumes it is an external link and will open in a new tab.
+1. Otherwise, the link will be assumed to be local and will open in the same tab.
 
-```
-{{</* link "https://gohugo.io/" */>}}
-```
-
-renders as
-
-
-
-### Override Title
-
-```
-{{</* link "https://gohugo.io/" "Hugo Homepage" */>}}
-```
-
-renders as
-
-
-
-{{% notice note %}}
-
-Of course, it is possible to just use raw HTML here:
-
-```html
-<a href="https://gohugo.io/" target="_blank">Hugo Homepage</a>
-```
-
-will render as 
-
-<a href="https://gohugo.io/" target="_blank">Hugo Homepage</a>
-
-{{% /notice %}}
+See `layouts/_default/_markup/render-link.html` or the [Hugo Documentation](https://gohugo.io/templates/render-hooks/#link-with-title-markdown-example).

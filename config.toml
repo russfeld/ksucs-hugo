@@ -1,6 +1,8 @@
 baseURL = "https://ksucs-hugo.russfeld.me"
 languageCode = "en-us"
 title = "K-State CS Hugo Framework"
+# This displays last edited information at bottom of page
+enableGitInfo = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = ["hugo-theme-relearn", "plausible-hugo"]
@@ -81,6 +83,10 @@ theme = ["hugo-theme-relearn", "plausible-hugo"]
   collapsibleMenu = true
   # If a single page can contain content in multiple languages, add those here
   additionalContentLanguage = [ "en" ]
+
+  # [x] russfeld
+  # Custom parameters
+  commitURL = "https://github.com/russfeld/ksucs-hugo/commit/"
 
 [markup]
   [markup.highlight]

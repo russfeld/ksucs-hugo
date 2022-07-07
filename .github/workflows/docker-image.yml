@@ -17,6 +17,8 @@ jobs:
       uses: Ilshidur/action-discord@master
 
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive
     
     - name: Update theme
       run: git submodule update --init --recursive

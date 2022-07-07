@@ -2,20 +2,40 @@
 title: "Line Numbers"
 pre: "3. "
 weight: 100
-date: 2021-08-10T01:53:26-05:00
 linenumbers: true
 ---
 
-Line numbering is supported by [highlight.js-line-numbers](https://github.com/wcoder/highlightjs-line-numbers.js/). 
+Some code line numbering and highlighting can be enabled directly through the [Highlight](https://gohugo.io/content-management/syntax-highlighting/) shortcode.
 
-It can be enabled using `linenumbers: true` setting either in the page frontmatter, or sitewide in `config.toml` in the `[params]` list.
+{{< highlight js "linenos=table,hl_lines=8 15-17,linenostart=142" >}}
 
-```java
-public class Java {
-
-    public static void main(String[] args) {
-        System.out.println("This is a test.");
+function setAutoScroll(newValue) {
+    if (newValue) {
+        autoScrollSpeed = speedFactor * newValue;
     }
-    
+    if (autoScrollTimer) {
+      clearInterval(autoScrollTimer);
+    }
+    autoScrollTimer = setInterval(function(){
+        currentTime = Date.now();
+        if (prevTime) {
+            if (!isScrolling) {
+                timeDiff = currentTime - prevTime;
+                currentPos += autoScrollSpeed * timeDiff;
+                if (Math.abs(currentPos - prevPos) >= minDelta) {
+                    isScrolling = true;
+                    elem = document.getElementById("body-inner");
+                    elem.scrollTo(0, currentPos);
+                    isScrolling = false;
+                    prevPos = currentPos;
+                    prevTime = currentTime;
+                }
+            }
+        } else {
+            prevTime = currentTime;
+            isScrolling = false;
+        }
+    }, 1000 / fps);
 }
-```
+
+{{< /highlight >}}

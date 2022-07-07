@@ -1,13 +1,12 @@
 +++
 title = "Homepage"
-date = 2018-08-24T10:53:05-05:00
 +++
 
 # K-State CS Hugo Theme
 
-This is an adaptation of [Hugo Theme Learn](https://learn.netlify.com/en/) that has been customized for use by K-State Computer Science to build online textbooks. It contains some features that are unique to our use case, but they may be useful to others.
+This is an adaptation of [Hugo Theme Relearn](https://mcshelby.github.io/hugo-theme-relearn/) that has been customized for use by K-State Computer Science to build online textbooks. It contains some features that are unique to our use case, but they may be useful to others.
 
-More information can be found on [GitHub](https://www.github.com/russfeld/ksucs-hugo-theme)
+More information can be found on [GitHub](https://github.com/K-State-Computational-Core/hugo-theme-relearn)
 
 Some unique features to this theme:
 * Fonts and layouts customized to match K-State's websites and color scheme, as well as [Instructure Canvas](https://canvas.instructure.com/).

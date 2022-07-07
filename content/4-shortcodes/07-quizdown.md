@@ -1,11 +1,10 @@
 ---
 title: "Quizdown"
-pre: "4. "
-weight: 110
-date: 2021-08-10T01:53:26-05:00
+pre: "7. "
+weight: 85
 ---
 
-This theme also includes the [Quizdown](https://github.com/bonartm/quizdown-js) plugin.
+This theme also includes the [Quizdown Plugin](https://github.com/bonartm/hugo-quiz). 
 
 {{< quizdown >}}
 
