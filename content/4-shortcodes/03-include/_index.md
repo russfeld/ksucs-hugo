@@ -18,19 +18,19 @@ Shortcodes do not work at this time. See [this issue](https://github.com/gohugoi
 ### Include Local
 
 ```
-{{%/* include "includes/01-include.md" */%}}
+{{</* include "includes/01-include.md" */>}}
 ```
 
 renders as
 
-{{% include "content/4-shortcodes/03-include/includes/01-include.md" %}}
+{{< include "content/4-shortcodes/03-include/includes/01-include.md" >}}
 
 ### Include
 
 ```
-{{%/* include "themes/ksucs-hugo-theme/static/files/syllabus-statements.md" */%}}
+{{</* include "themes/hugo-theme-relearn/static/files/syllabus-statements.md" */>}}
 ```
 
 renders as
 
-{{% include "themes/ksucs-hugo-theme/static/files/syllabus-statements.md" %}}
+{{< include "themes/hugo-theme-relearn/static/files/syllabus-statements.md" >}}

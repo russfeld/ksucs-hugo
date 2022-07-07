@@ -4,6 +4,6 @@ This content is included from a local file. It can include any valid markdown. T
 
 {{% notice note %}}
 
-Shortcodes do not work at this time. See [this issue](https://github.com/gohugoio/hugo/issues/6703) on GitHub for details. 
+Shortcodes are now working! See [this issue](https://github.com/gohugoio/hugo/issues/6703) on GitHub for details. 
 
 {{% /notice %}}
