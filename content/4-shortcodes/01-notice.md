@@ -84,14 +84,14 @@ That item will not render on the [embed](./embed.html) version of this page.
 The title on a notice can be customized in the third parameter. The second parameter sets the HTML `id` of the element - it is maintained for compatibility with the overall theme.
 
 ```
-{{%/* notice note note-1 "Custom Title" */%}}
+{{%/* notice note "custom title" */%}}
 A notice disclaimer
 {{%/* /notice */%}}
 ```
 
 renders as
 
-{{% notice note note-1 "Custom Title" %}}
+{{% notice note "Custom Title" %}}
 A notice disclaimer
 {{% /notice %}}
 
