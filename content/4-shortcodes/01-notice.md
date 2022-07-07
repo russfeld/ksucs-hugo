@@ -155,7 +155,7 @@ A second paragraph
 > Blockquote 2  
 > Blockquote 3  
 
-![Minion](https://octodex.github.com/images/minion.png)
+
 
 ```java
 public class Java {

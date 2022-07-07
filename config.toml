@@ -8,10 +8,8 @@ theme = ["hugo-theme-relearn", "plausible-hugo"]
 # For search functionality
 [outputs]
   home = ["HTML", "RSS", "PRINT", "JSON"]
-  section = ["HTML", "RSS", "PRINT"]
-  page = ["HTML", "RSS", "PRINT"]
-# page = [ "HTML", "Iframeable", "Teleprompter"]
-# section = [ "HTML", "Iframeable", "Teleprompter"]
+  section = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
+  page = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
 
 [params]
   # This controls whether submenus will be expanded (true), or collapsed (false) in the
@@ -84,11 +82,6 @@ theme = ["hugo-theme-relearn", "plausible-hugo"]
   # If a single page can contain content in multiple languages, add those here
   additionalContentLanguage = [ "en" ]
 
-# Old Blackfriday Content
-# [blackfriday]
-#   plainIDAnchors = true
-#   hrefTargetBlank = true
-
 [markup]
   [markup.highlight]
     # if set to `guessSyntax = true`, there will be no unstyled code even if no language
@@ -103,23 +96,9 @@ theme = ["hugo-theme-relearn", "plausible-hugo"]
       # Render raw HTML
       unsafe = true
 
-# Custom output format for iframes
-# [outputFormats]
-#   [outputFormats.Iframeable]
-#     name = "Iframeable"
-#     baseName = "embed"
-#     mediaType = "text/html"
-#     isPlainText = false
-#     isHTML = true
-#   [outputFormats.Teleprompter]
-#     name = "Teleprompter"
-#     baseName = "tele"
-#     mediaType = "text/html"
-#     isPlainText = false
-#     isHtml = true
-
 ## Plausible config
 [params.plausible]
   enable = true  # Whether to enable plausible tracking
   domain = "ksucs-hugo.russfeld.me"  # Plausible "domain" name/id in your dashboard
   selfhosted_domain = "plausible.russfeld.me"
+  gitstar = false
