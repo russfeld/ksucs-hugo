@@ -13,4 +13,4 @@ The static shortcode will create links to files in the `static` folder inside of
 
 renders as
 
-![Image Link]({{< static "/images/original.png" >}})
+![Image Link](/images/original.png)

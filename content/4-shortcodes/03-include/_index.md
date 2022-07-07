@@ -18,12 +18,12 @@ Shortcodes do not work at this time. See [this issue](https://github.com/gohugoi
 ### Include Local
 
 ```
-{{%/* include-local "includes/01-include.md" */%}}
+{{%/* include "includes/01-include.md" */%}}
 ```
 
 renders as
 
-{{% include-local "includes/01-include.md" %}}
+{{% include "content/4-shortcodes/03-include/includes/01-include.md" %}}
 
 ### Include
 

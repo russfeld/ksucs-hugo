@@ -15,7 +15,7 @@ The link shortcode simply creates a link with the `target="_blank"` HTML attribu
 
 renders as
 
-{{< link "https://gohugo.io/" >}}
+
 
 ### Override Title
 
@@ -25,7 +25,7 @@ renders as
 
 renders as
 
-{{< link "https://gohugo.io/" "Hugo Homepage" >}}
+
 
 {{% notice note %}}
 

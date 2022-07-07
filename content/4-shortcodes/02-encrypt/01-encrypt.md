@@ -28,7 +28,7 @@ a longer code block
 
 ### Source File (for Editing)
 
-{{< norender >}}
+<pre>
 
 ### Example File to be Encrypted
 
@@ -50,6 +50,6 @@ _Italics_
 a longer code block
 ```
 
-{{< /norender >}}
+</pre>
 
 {{% /encrypt %}}

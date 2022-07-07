@@ -35,7 +35,7 @@ a longer code block
 
 renders as 
 
-{{< norender >}}
+<pre>
 
 ### Example File to be Encrypted
 
@@ -57,4 +57,4 @@ _Italics_
 a longer code block
 ```
 
-{{< /norender >}}
+</pre>
