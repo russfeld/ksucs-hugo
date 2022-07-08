@@ -23,7 +23,6 @@ jobs:
     
     - name: Update theme
       run: |
-        git submodule update --init --recursive
         ls -al
       
     - name: Login to GitHub Container Registry
@@ -35,6 +34,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v2
       with:
+        context: .
         push: true
         tags: |
             ghcr.io/${{ github.repository_owner }}/ksucs-hugo:latest
