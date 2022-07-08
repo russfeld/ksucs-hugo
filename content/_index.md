@@ -4,7 +4,7 @@ title = "Homepage"
 
 # K-State CS Hugo Theme
 
-This is an adaptation of [Hugo Theme Relearn](https://mcshelby.github.io/hugo-theme-relearn/) that has been customized for use by K-State Computer Science to build online textbooks. It contains some features that are unique to our use case, but they may be useful to others.
+This is an adaptation of [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/) that has been customized for use by K-State Computer Science to build online textbooks. It contains some features that are unique to our use case, but they may be useful to others.
 
 More information can be found on [GitHub](https://github.com/K-State-Computational-Core/hugo-theme-relearn)
 

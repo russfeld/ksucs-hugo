@@ -11,7 +11,7 @@ pre = "<b>4. </b>"
 
 {{% notice note %}}
 
-Documentation on built-in shortcodes can be found on the [Hugo Theme Relearn Documentation](https://learn.netlify.app/en/shortcodes/).
+Documentation on built-in shortcodes can be found on the [Hugo Relearn Theme Documentation](https://learn.netlify.app/en/shortcodes/).
 
 There are also many useful shortcodes built directly into [Hugo](https://gohugo.io/content-management/shortcodes/)
 
