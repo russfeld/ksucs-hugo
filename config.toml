@@ -1,13 +1,24 @@
+# Base URL where the site will be hosted
 baseURL = "https://ksucs-hugo.russfeld.me"
+# Default language for the site
 languageCode = "en-us"
+# Site Title
 title = "K-State CS Hugo Framework"
+# This will fix URLs to match baseURL (for hosting in subfolders)
+canonifyURLs = true
 # This displays last edited information at bottom of page
 enableGitInfo = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = ["hugo-theme-relearn", "plausible-hugo"]
 
-# For search functionality
+# Output Types
+# HTML - default page
+# RSS - for RSS feeds
+# PRINT - printable output
+# JSON - enables Lunr search engine
+# TELE - Teleprompter
+# EMBED - Embeddable Version
 [outputs]
   home = ["HTML", "RSS", "PRINT", "JSON"]
   section = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
