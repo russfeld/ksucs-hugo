@@ -10,11 +10,13 @@ There are two forms of the include shortcode - one to include files relative to 
 
 {{% notice note %}}
 
-This should also now work with shortcodes! See [this GitHub Issue](https://github.com/gohugoio/hugo/issues/6703) for more information. The `.RenderString` function was substituted for `safeHTML` in the `include` shortcode.
+This should also now work with shortcodes! See [this GitHub Issue](https://github.com/gohugoio/hugo/issues/6703) for more information. The `.markdownify` function was substituted for `safeHTML` in the `include` shortcode.
 
 {{% /notice %}}
 
 ### Include Local
+
+This will include a file relative to the current page's file path.
 
 ```
 {{</* include "includes/01-include.md" */>}}
@@ -26,10 +28,12 @@ renders as
 
 ### Include
 
+This will include a file with the filepath relative to the project root.
+
 ```
 {{</* include "themes/hugo-theme-relearn/static/files/syllabus-statements.md" */>}}
 ```
 
 renders as
 
-{{< include "themes/hugo-theme-relearn/static/files/syllabus-statements.md" >}}
+{{< include "themes/hugo-theme-relearn/static/files/syllabus/netiquette.md" >}}
