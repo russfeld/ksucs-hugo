@@ -8,6 +8,7 @@ This gives the basic setup for a new textbook based on a starter repository.
 
 ## Clone Starter Repository
 
+1. Install Hugo from the [Hugo Releases](https://github.com/gohugoio/hugo/releases). You should have version `0.101.0` or higher.
 1. Clone the Starter Repository on [GitLab](https://gitlab.cs.ksu.edu/cs-textbooks/hugo-starter) or [GitHub](https://github.com/ksu-cs-textbooks/hugo-starter) to your local system: `git clone <url> <directory>`.
 2. Open the site's directory: `cd <directory>`.
 3. Initialize git submodules: `git submodule init`.

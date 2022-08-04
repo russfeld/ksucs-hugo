@@ -10,13 +10,13 @@ This gives the basic steps for creating a brand new Hugo textbook from scratch.
 
 The first steps come from the [Hugo Quick Start Guide](https://gohugo.io/getting-started/quick-start/)
 
-1. Install Hugo from the [Hugo Releases](https://github.com/gohugoio/hugo/releases).
+1. Install Hugo from the [Hugo Releases](https://github.com/gohugoio/hugo/releases). You should have version `0.101.0` or higher.
 2. Create a new site: `hugo new site <sitename>`.
 3. Open the site's directory: `cd <sitename>`.
 4. Start a git repository: `git init`.
 5. Add the theme: `git submodule add https://github.com/ksu-cs-textbooks/hugo-theme-relearn themes/hugo-theme-relearn`
 6. Update the `config.toml` file:
-    1. Best way to start is simply to copy the [config.toml](https://github.com/russfeld/ksucs-hugo/blob/master/config.toml) file for this site. It is well documented.
+    1. Best way to start is simply to copy the [config.toml](https://github.com/ksu-cs-textbooks/hugo-starter/blob/main/config.toml) file for the starter site. It is well documented.
     2. Update the `baseURL` at the top to match the URL where the site will eventually be deployed.
     3. Update the `title` to match the site's name
     4. Update the `theme` to be just `theme = ["hugo-theme-relearn"]` (remove the `"plausible-hugo"` part)
