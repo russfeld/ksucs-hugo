@@ -145,7 +145,7 @@ See the [Hugo Theme Relearn Documentation](https://mcshelby.github.io/hugo-theme
 
 {{% notice note %}}
 
-This may be an incomplete list - if you run into additional front matter issues when upgrading, let me know and I'll update this document.
+This may be an incomplete list of front matter changes - if you run into additional front matter issues when upgrading, let me know and I'll update this document.
 
 {{% /notice %}}
 
@@ -176,13 +176,23 @@ If you are including files from the previous theme, such as the default syllabus
 * `norender` - the `norender` shortcode has been removed. It can be replaced by enclosing the content in a `<pre> </pre>` HTML element.
 * `static` - the `static` shortcode has been removed. Any files in the `/static` folder within the site are now accessible using direct URLs. For example, a file at `/static/images/logo.png` can be included using `![Logo](/images/logo.png)`. As long as the `baseURL` and `canonifyURLs` settings in `config.toml` are correct, Hugo will automatically update these URLs to the correct path. 
 
+{{% notice note %}}
+
+This may be an incomplete list of shortcode changes - if you run into additional shortcode issues when upgrading, let me know and I'll update this document.
+
+{{% /notice %}}
+
 ## Preview Content
 
 At this point, you should preview the content in your site using `hugo serve` and ensure that it looks correct. If everything is working properly, then continue. If not, feel free to contact the theme maintainer for assistance.
 
 ## Update Deployment
 
+{{% notice warning %}}
+
 As of August 2022, the server has not been updated to use a newer version of Hugo by default. Therefore, before deploying an updated site, contact one of the server administrators to have your site's webhook updated to use the `deploy-101.sh` deployment script, which uses the new version of Hugo.
+
+{{% /notice %}}
 
 ## Commit and Push to Test Deployment
 
