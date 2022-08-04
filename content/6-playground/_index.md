@@ -10,5 +10,3 @@ pre = "<b>6. </b>"
 # Playground
 
 A folder for testing and publishing demo work. 
-
-Change to test deployment!
