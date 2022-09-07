@@ -151,6 +151,25 @@ This may be an incomplete list of front matter changes - if you run into additio
 
 {{% /notice %}}
 
+## Content Changes
+
+### LaTeX Math
+
+Hugo Theme Relearn changed the way that LaTeX math is handled in markdown. Now it is best to either include it in a shortcode or a code fence instead of just using dollar signs `$` directly in the markdown. See the [Hugo Theme Relearn Documentation](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/math/) for additional details. 
+
+In general, any inline LaTeX using single dollar signs `$` should be wrapped with the new `math` shortcode, as in {{< math >}}$e^x${{< /math >}}.
+
+For multiline LaTeX using two dollar signs `$$`, use the `math` codefence:
+
+```math
+$$
+e^{i \pi} + 1 = 0
+$$
+$$
+sin^2(x) + cos^2(x) = tan^2(x)
+$$
+```
+
 ## Shortcode Changes
 
 Click here for [Complete Shortcode Documentation](https://ksucs-hugo.russfeld.me/4-shortcodes/). The following shortcodes should be reviewed for updates:
