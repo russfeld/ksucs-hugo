@@ -1,9 +1,4 @@
 ---
-description: "UI for your Swagger / OpenAPI Specifications"
-title: "OpenAPI"
----
-
----
 description: "UI for your OpenAPI / Swagger specifications"
 title: "OpenAPI"
 ---

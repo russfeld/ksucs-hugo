@@ -9,4 +9,4 @@ The `link` shortcode from the previous template has been deprecated. Instead, th
 1. If the link `href` contains `http`, then it assumes it is an external link and will open in a new tab.
 1. Otherwise, the link will be assumed to be local and will open in the same tab.
 
-See `layouts/_default/_markup/render-link.html` or the [Hugo Documentation](https://gohugo.io/templates/render-hooks/#link-with-title-markdown-example).
+See the `externalLinkTarget` configuration item. [Documentation](https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html)

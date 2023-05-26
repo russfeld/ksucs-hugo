@@ -12,21 +12,6 @@ This content details additions to the the original version in the [Hugo Relearn 
 
 ## Front Matter configuration
 
-<!-- TODO Deprecated? 
-
-The following items are unique to this theme.
-
-```toml
-+++
-# Set the page as a section, changing the way it's displayed
-section = false
-+++
-```
-
-The **section** item tells Hugo to use a slightly different CSS layout on the rendered page (similar to a **chapter** but with different text formatting).
-
--->
-
 Instead of using `LastModifierDisplayName` and `LastModifierEmail`, this site is instead configured to use [Hugo Git Info Variables](https://gohugo.io/variables/git/) to pull that content from the git repository storing this website. 
 
 ### Reveal.js Slides

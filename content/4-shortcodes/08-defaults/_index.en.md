@@ -19,4 +19,4 @@ To avoid this limitations, Hugo created [shortcodes](https://gohugo.io/extras/sh
 
 The Relearn theme provides multiple shortcodes on top of existing ones.
 
-{{%children containerstyle="ul" style="li" %}}
+{{%children containerstyle="div" style="h2" description="true" %}}
