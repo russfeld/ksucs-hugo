@@ -1,12 +1,9 @@
 +++
 title = "Basic Markdown"
 weight = 25
-chapter = true
+archetype = "chapter"
+ordinal = "3"
 pre = "<b>3. </b>"
 +++
-
-### Chapter 3
-
-# Basic Markdown
 
 Basic Markdown Structures

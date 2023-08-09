@@ -1,12 +1,9 @@
 +++
 title = "Features"
 weight = 30
-chapter = true
+archetype = "chapter"
+ordinal = "5"
 pre = "<b>5. </b>"
 +++
-
-### Chapter 5
-
-# Theme Features
 
 Features of the KSUCS Hugo Theme

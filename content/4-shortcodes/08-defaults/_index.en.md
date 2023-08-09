@@ -1,5 +1,6 @@
 +++
 archetype = "chapter"
+ordinal = "8"
 title = "Theme Shortcodes"
 weight = 90
 pre = "8. "

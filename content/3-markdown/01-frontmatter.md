@@ -29,6 +29,7 @@ These items are unique:
 
 * **type**: this tells Hugo to render this page as a Reveal.js page, which will use a different template
 * **hidden**: this will remove this item from the menu on the left. This can be added to any page.
+* **ordinal**: this is used by the new [chapter](https://mcshelby.github.io/hugo-theme-relearn/cont/archetypes/) archetype to override the weight as the chapter's index.
 
 There are many other items that can be added. See [Hugo Frontmatter](https://gohugo.io/content-management/front-matter/) for details.
 

@@ -22,7 +22,7 @@ theme = ["hugo-theme-relearn", "plausible-hugo"]
 # SEARCH - Search index file for Lunr
 # SEARCHPAGE - Dedicated Search Page
 [outputs]
-  home = ["HTML", "RSS", "PRINT", "JSON", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
   section = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
   page = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
 

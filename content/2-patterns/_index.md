@@ -1,12 +1,9 @@
 +++
 title = "Structural Patterns"
 weight = 20
-chapter = true
+archetype = "chapter"
+ordinal = "2"
 pre = "<b>2. </b>"
 +++
-
-### Chapter 2
-
-# Structural Patterns
 
 Patterns we use for various things

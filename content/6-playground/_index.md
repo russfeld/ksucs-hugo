@@ -1,12 +1,9 @@
 +++
 title = "Playground"
 weight = 35
-chapter = true
+archetype = "chapter"
+ordinal = "6"
 pre = "<b>6. </b>"
 +++
-
-### Chapter 6
-
-# Playground
 
 A folder for testing and publishing demo work. 

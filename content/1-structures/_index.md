@@ -1,12 +1,9 @@
 +++
 title = "Advanced Structures"
 weight = 15
-chapter = true
+archetype = "chapter"
+ordinal = "1"
 pre = "<b>1. </b>"
 +++
-
-### Chapter 1
-
-# Advanced Hugo Structures
 
 More Complex File Patterns

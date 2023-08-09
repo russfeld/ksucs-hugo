@@ -1,12 +1,9 @@
 +++
 title = "Section"
 weight = 5
-chapter = true
+archetype = "chapter"
+ordinal = "0"
 pre = "<b>0. </b>"
 +++
-
-### Section 0
-
-# Subsections
 
 A subsection example.

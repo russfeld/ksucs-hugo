@@ -89,7 +89,7 @@ To create a chapter, first create a folder with the chapter's name in the `conte
 ```md
 +++
 archetype = "chapter"
-chapter = true
+ordinal = "1"
 title = "Introduction"
 pre = "<b>1. </b>"
 weight = 1

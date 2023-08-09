@@ -1,13 +1,10 @@
 +++
 title = "Shortcodes"
 weight = 28
-chapter = true
+archetype = "chapter"
+ordinal = "4"
 pre = "<b>4. </b>"
 +++
-
-### Chapter 4
-
-# Shortcodes
 
 {{% notice note %}}
 
