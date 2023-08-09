@@ -21,7 +21,6 @@ This will include all of the default syllabus statements on the page. Currently,
 1. conduct
 1. respect
 1. netiquette (this is a custom statement for K-State CS courses)
-1. facecoverings
 1. discrimination
 1. freedom
 1. safety
@@ -30,6 +29,14 @@ This will include all of the default syllabus statements on the page. Currently,
 1. mentalhealth
 1. absences
 1. copyright
+
+### Available Statements
+
+In addition to the default statements, the following optional statements are available:
+
+1. safezone
+1. facecoverings (deprecated as of Fall 2023)
+1. weapons
 
 ### Customizing
 
