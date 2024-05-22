@@ -60,7 +60,7 @@ If the site is set up to build Docker images, there are two options:
 
 In addition, you should confirm that the `HUGO_VERSION` argument in the `Dockerfile` is set to `0.101.0`. 
 
-Finally, since we aren't currently using Docker images yet, you may wish to configure your textbook to only create a Docker image when a new tag is pushed, or disable this completely for the time being. See the [Docker Container]({{< relref "08-docker.md" >}}) page for more information. 
+Finally, since we aren't currently using Docker images yet, you may wish to configure your textbook to only create a Docker image when a new tag is pushed, or disable this completely for the time being. See the [Docker Container]({{% relref "08-docker.md" %}}) page for more information. 
 
 ## Updating layouts
 

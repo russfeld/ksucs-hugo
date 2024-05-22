@@ -6,7 +6,7 @@ weight: 20
 
 ### Resources
 
-[Slides]({{< relref "02-reveal-example-slides" >}})
+[Slides]({{% relref "02-reveal-example-slides" %}})
 
 ### Info
 
@@ -32,7 +32,7 @@ When editing the slides, it is recommended to manually update the highlighting u
 
 ## Examples
 
-Below are some example slides to show the formatting that can be done in this presentation. Each slide is present in the [Slides]({{< relref "02-reveal-example-slides" >}}) page.
+Below are some example slides to show the formatting that can be done in this presentation. Each slide is present in the [Slides]({{% relref "02-reveal-example-slides" %}}) page.
 
 ### Simple Title Slide
 

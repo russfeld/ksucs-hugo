@@ -5,7 +5,7 @@ title = "Attachments"
 
 The `attachments` shortcode displays a list of files attached to a page with adjustable color, title and icon.
 
-{{% attachments sort="asc" /%}}
+{{% resources sort="asc" /%}}
 
 {{% notice warning %}}
 Since Hugo {{% badge color="fuchsia" icon="fab fa-hackerrank" title=" " %}}0.112.0{{% /badge %}} this only works for leaf bundles. Branch bundles and simple pages must be switched to leaf bundles or you are currently locked to a Hugo version < `0.112.0`.

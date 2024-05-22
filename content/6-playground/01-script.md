@@ -6,7 +6,7 @@ weight: 10
 
 ### Resources
 
-[Slides]({{< relref "01-slides" >}})
+[Slides]({{% relref "01-slides" %}})
 
 Salutations! My name is Russell Feldhausen, and currently it is my honor to serve as the vice president of the All Souls Board of Trustees. At our October board meeting, we approved a plan to return to in-person services starting on November 7th. We also set a goal to clearly communicate about this process to the congregation. So, in that spirit, here is some information about our current plan for in-person services. As many of you know, I work in education, so please forgive me as I slip into "teacher mode" for a bit to share all of this information.
 

@@ -4,7 +4,9 @@ weight: 3
 pre: "2.1 "
 ---
 
-{{% encrypt encrypted %}}
+<!-- TODO Encrypt -->
+
+{{%/* encrypt encrypted */%}}
 
 ### Example File to be Encrypted
 
@@ -52,4 +54,4 @@ a longer code block
 
 </pre>
 
-{{% /encrypt %}}
+{{%/* /encrypt */%}}

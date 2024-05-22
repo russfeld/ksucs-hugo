@@ -8,4 +8,4 @@ This example page shows only a few selected syllabus statements. This allows ins
 
 <hr />
 
-{{< syllabus include="honesty disabilities conduct respect facecoverings discrimination" >}}
+{{</* syllabus include="honesty disabilities conduct respect facecoverings discrimination" */>}}

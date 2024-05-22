@@ -24,7 +24,9 @@ This will include a file relative to the current page's file path.
 
 renders as
 
-{{< include-local "includes/01-include.md" >}}
+<!-- #TODO Include Local -->
+
+{{</* include-local "includes/01-include.md" */>}}
 
 ### Include
 
@@ -36,4 +38,6 @@ This will include a file with the filepath relative to the project root.
 
 renders as
 
-{{< include "themes/hugo-theme-relearn/static/files/syllabus/netiquette.md" >}}
+<!-- #TODO Fix Include Path -->
+
+{{</* include "themes/hugo-theme-relearn/static/files/syllabus/netiquette.md" */>}}

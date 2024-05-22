@@ -60,6 +60,6 @@ The sidebar footer can also be overridden by creating a file at `layouts/partial
 
 ### Additional Content
 
-The starter repository contains all of the basic content covered in the [Textbook from Scratch]({{< relref "01-scratch" >}}) page. 
+The starter repository contains all of the basic content covered in the [Textbook from Scratch]({{% relref "01-scratch" %}}) page. 
 
 From there, you can continue to create additional chapters and pages as needed. For more advanced content structures, look through the source code to [this site](https://github.com/russfeld/ksucs-hugo/tree/master/content). It includes examples for page bundles, leaf bundles, hidden pages, non-printable pages, syllabus pages, video content, historical content, and more. 

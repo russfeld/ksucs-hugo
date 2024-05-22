@@ -22,4 +22,6 @@ renders as
 A disclaimer that will not be visible on the embedded version of the page
 {{% /notice %}}
 
-That item will not render on the [embed](./embed.html) version of this page.
+<!-- # TODO Fix Embed Link -->
+
+That item will not render on the embed ./embed.html version of this page.

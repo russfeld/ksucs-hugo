@@ -8,4 +8,4 @@ This example page shows all current default syllabus statements.
 
 <hr />
 
-{{< syllabus >}}
+{{</* syllabus */>}}
