@@ -6,9 +6,7 @@ weight: 85
 
 This theme also includes the [Quizdown Plugin](https://github.com/bonartm/hugo-quiz). 
 
-<!-- #TODO Quizdown -->
-
-{{</* quizdown */>}}
+{{< quizdown >}}
 
 ---
 primaryColor: '#512888'
@@ -48,4 +46,4 @@ print(x[2])
 1. [ ] Hamburg
 1. [ ] Munich
 
-{{</* /quizdown */>}}
+{{< /quizdown >}}

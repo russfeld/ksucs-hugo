@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-pre: "9. "
+pre: "8. "
 weight: 100
 ---
 

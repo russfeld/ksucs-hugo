@@ -38,3 +38,15 @@ github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523205504-0e03080ba54
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523205504-0e03080ba54b/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523205733-d09f3e99e613 h1:pjBacNWH/BzTv1OSl7pGA1JjUNt9tF4rqOm/wpO9GhA=
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523205733-d09f3e99e613/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523220751-0ceec037fdc3 h1:CBYFm4O8dxmdMvbznquR81rrazZ7ZaVIQWuvVdO3aO0=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523220751-0ceec037fdc3/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523221723-83256509cd90 h1:gdMZgqZOp438Zz7ZL+DiQcR3ea3wqPSwRMGtYEGi9pU=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523221723-83256509cd90/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523222819-af1a2106e848 h1:Y3emxxrHpQcvzMh70gM/0LQDGH2k4tQ6KoD5GTdMfvE=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523222819-af1a2106e848/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523224424-549760a2ce5c h1:64y1XMscjz3Tug3O06qicwUmuSUk1+fdNG9OgaQh//s=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523224424-549760a2ce5c/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523224516-11b89a15b92e h1:2SNkcj6gZwZBMbzAX5tHX0NrcabjHxr2/xy1r6Xdpkw=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523224516-11b89a15b92e/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523230141-45cda3a991e3 h1:TtMTti8Z75yT/cowS8lwtGqg2plETMFr3d5/4Dg7UOA=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240523230141-45cda3a991e3/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=

@@ -14,6 +14,12 @@ This content details additions to the the original version in the [Hugo Relearn 
 
 Instead of using `LastModifierDisplayName` and `LastModifierEmail`, this site is instead configured to use [Hugo Git Info Variables](https://gohugo.io/variables/git/) to pull that content from the git repository storing this website. 
 
+This template adds one new Frontmatter option:
+
+* **ordinal**: this is used by the new [chapter](https://mcshelby.github.io/hugo-theme-relearn/cont/archetypes/) archetype to override the weight as the chapter's index.
+
+There are many other items that can be added. See [Hugo Frontmatter](https://gohugo.io/content-management/front-matter/) for details. The [Hugo Theme Relearn](https://mcshelby.github.io/hugo-theme-relearn/cont/frontmatter/index.html) documentation also has an exhaustive list of frontmatter options for the base theme.
+
 ### Reveal.js Slides
 
 For Reveal.js slides, the frontmatter is as follows:
@@ -25,13 +31,10 @@ hidden: true
 ---
 ```
 
-These items are unique:
+These items are used:
 
 * **type**: this tells Hugo to render this page as a Reveal.js page, which will use a different template
 * **hidden**: this will remove this item from the menu on the left. This can be added to any page.
-* **ordinal**: this is used by the new [chapter](https://mcshelby.github.io/hugo-theme-relearn/cont/archetypes/) archetype to override the weight as the chapter's index.
-
-There are many other items that can be added. See [Hugo Frontmatter](https://gohugo.io/content-management/front-matter/) for details.
 
 {{% notice note %}}
 

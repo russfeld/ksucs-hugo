@@ -19,25 +19,21 @@ This should also now work with shortcodes! See [this GitHub Issue](https://githu
 This will include a file relative to the current page's file path.
 
 ```
-{{</* include "includes/01-include.md" */>}}
+{{</* include-local "includes/01-include.md" */>}}
 ```
 
 renders as
 
-<!-- #TODO Include Local -->
-
-{{</* include-local "includes/01-include.md" */>}}
+{{< include-local "includes/01-include.md" >}}
 
 ### Include
 
-This will include a file with the filepath relative to the project root.
+This will include a file with the filepath relative to the project root. This takes advantage of Hugo's [Union File System](https://gohugo.io/getting-started/directory-structure/#union-file-system) so that directories from the theme module are also accessible at paths relative to the project root.
 
 ```
-{{</* include "themes/hugo-theme-relearn/static/files/syllabus-statements.md" */>}}
+{{</* include "data/syllabus/netiquette.md" */>}}
 ```
 
 renders as
 
-<!-- #TODO Fix Include Path -->
-
-{{</* include "themes/hugo-theme-relearn/static/files/syllabus/netiquette.md" */>}}
+{{< include "data/syllabus/netiquette.md" >}}

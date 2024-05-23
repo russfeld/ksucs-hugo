@@ -5,7 +5,7 @@ weight: 100
 linenumbers: true
 ---
 
-Some code line numbering and highlighting can be enabled directly through the [Highlight](https://gohugo.io/content-management/syntax-highlighting/) shortcode.
+Some code line numbering and highlighting can be enabled directly through the [Highlight]({{% relref "shortcodes/highlight" %}}) shortcode.
 
 {{< highlight js "linenos=table,hl_lines=8 15-17,linenostart=142" >}}
 

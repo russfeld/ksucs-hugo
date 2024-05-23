@@ -8,4 +8,4 @@ This example page shows all current default syllabus statements, except for the 
 
 <hr />
 
-{{</* syllabus exclude="copyright honesty" */>}}
+{{< syllabus exclude="copyright honesty" >}}
