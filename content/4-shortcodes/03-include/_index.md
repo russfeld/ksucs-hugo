@@ -2,6 +2,7 @@
 title: "Include"
 pre: "3. "
 weight: 50
+description: "Updates to the Include shortcode"
 ---
 
 A shortcode was created to enable the inclusion of other markdown files. This allows us to create modular websites that reuse pieces of content, such as standardized syllabus statements.

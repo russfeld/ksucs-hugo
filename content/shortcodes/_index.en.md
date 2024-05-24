@@ -1,5 +1,5 @@
 +++
-archetype = "section"
+archetype = "page"
 title = "Built-In Shortcodes"
 ordersectionsby = "title"
 weight = 29
@@ -15,4 +15,4 @@ To avoid this limitations, Hugo created [shortcodes](https://gohugo.io/extras/sh
 
 The Relearn theme provides multiple shortcodes on top of existing ones.
 
-{{%children containerstyle="div" style="h2" description="true" %}}
+{{%children containerstyle="div" style="h5" description="true" %}}

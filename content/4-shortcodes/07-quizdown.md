@@ -2,6 +2,7 @@
 title: "Quizdown"
 pre: "7. "
 weight: 85
+description: "Self-Check Quizzes"
 ---
 
 This theme also includes the [Quizdown Plugin](https://github.com/bonartm/hugo-quiz). 

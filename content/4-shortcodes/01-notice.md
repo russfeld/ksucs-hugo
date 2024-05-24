@@ -2,6 +2,7 @@
 title: "Notice"
 pre: "1. "
 weight: 30
+description: "Updates to the Notice shortcode"
 ---
 
 The notice shortcode has been modified to make the following changes:

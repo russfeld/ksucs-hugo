@@ -11,6 +11,7 @@ RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER
 
 COPY ./ /site
 WORKDIR /site
+# TODO Test This
 RUN hugo mod get
 RUN hugo --minify
 

@@ -2,6 +2,7 @@
 title: "Syllabus"
 pre: "8. "
 weight: 100
+description: "Include Default K-State Syllabus Statements"
 ---
 
 The `syllabus` shortcode can be used to include the default K-State syllabus statements that are embedded into the theme. The theme maintainer will update these statements each semester, so by using this shortcode and keeping your theme updated, your textbooks will always have the current statements.
