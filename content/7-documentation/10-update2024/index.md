@@ -38,7 +38,8 @@ To Upgrade the theme and switch from a Git Submodule to a Hugo Module, do the fo
 5. Once the configuration is updated in `hugo.toml`, delete the existing `config.toml` as it is no longer needed. 
 6. Initialize the Hugo Module system. The name of the module doesn't matter since it won't be used - just use the name of the repository, such as `hugo mod init cis598-textbook`. This should create a file `go.mod` listing the name of the module and the version of `go` used. 
   1. The module import is already defined at the bottom of the new `hugo.toml` file and doesn't need to be configured. 
-7. Install the Hugo module using `hugo mod get -u`. This should install the module and create a file `go.sum` that includes the checksums of the module dependencies. 
+7. Install the Hugo module using `hugo mod get -u`. This should install the module and create a file `go.sum` that includes the checksums of the module dependencies.
+  1. In the future, use `hugo mod get` to get the current version specified, or `hugo mod get -u` to update the version to the latest in GitHub. 
 
 Before testing the site, there are a few content changes that must be made.
 
