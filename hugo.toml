@@ -21,7 +21,7 @@ cleanDestinationDir = true
 # SEARCH - Search index file for Lunr
 # SEARCHPAGE - Dedicated Search Page
 [outputs]
-  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE", "LTI"]
   section = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
   page = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
 
@@ -470,6 +470,9 @@ cleanDestinationDir = true
 
   # [x] russfeld
   # Custom parameters
+  #
+  # This is for linking directly to the GitHub Commit where the most recent
+  # edit on a page was made. 
   commitURL = "https://github.com/russfeld/ksucs-hugo/commit/"
 
 [markup]

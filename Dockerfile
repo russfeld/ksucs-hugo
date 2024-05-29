@@ -2,7 +2,7 @@ FROM hugomods/hugo:0.126.1 as build
 
 COPY ./ /site
 WORKDIR /site
-# TODO Test This
+
 RUN hugo mod get
 RUN hugo --minify
 
