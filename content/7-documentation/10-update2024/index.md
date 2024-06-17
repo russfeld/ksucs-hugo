@@ -75,6 +75,8 @@ These errors can be switched to warnings in `hugo.toml` but it is best to deal w
 
 ### Updates to `youtube` shortcode
 
+Updated 2024-06-17 - It looks like this may not need fixed after all?
+
 The `youtube` shortcode may also need to be updated as described above. 
 
 To fix this, the following regex find/replace can be used in VS Code:
@@ -92,7 +94,6 @@ Replace:
 {{%/* youtube $1 */%}}
 ```
 
-
 ### Updates to Images and Other Resources
 
 Newer versions of Hugo can also verify the path of any images and resources included in the page. This is helpful for finding broken links or missing images. Unfortunately, it cannot verify any items stored in the `static` directory since it is not processed through the content pipeline. Many of our textbooks store all images and resources in the `static` folder, **which is fine**, but it means that the build process cannot verify that there aren't any missing items or broken links.
@@ -100,7 +101,7 @@ Newer versions of Hugo can also verify the path of any images and resources incl
 To fix this, there are a few options:
 
 1. In `hugo.toml`, the errors can be switched to warnings or disabled entirely. By default, all checks are set to `error` except for images, which are set to `warning`. Read the documentation in `hugo.toml` to determine what options are preferred.
-2. Images and resources in the `static` folder can be moved to the `assets` folder. Ideally the links won't need to be changed if the images are linked using an absolute reference path (e.g. `images/1/image.png`)
+2. Images and resources in the `static` folder can be moved to the `assets` folder. Ideally the links won't need to be changed if the images are linked using an absolute reference path (e.g. `images/1/image.png`). **This is the simplest fix**
 3. Images and resources in the `static` folder can be moved to the `content` folder near the page where they are used. It is recommended to convert any standalone pages to [page bundles](https://gohugo.io/content-management/page-bundles/) that contain the page and all associated resources.
 
 For example, the CIS 598 textbook contains a page `01-fall2022.md` that contains links to many images in the `static` folder:
@@ -119,8 +120,8 @@ Disabling the `canonifyURLs` option will break all image links in any Reveal.js 
 
 There are two workarounds:
 
-1. A quick fix is to a find/replace for the `/images/` path in the slides and prepend the subdirectory to the path, as in `/cis598/images/`. This works as long as the site `baseURL` is not changed.
-2. A better workaround would be to move the images into a page bundle as described above, and then convert the `/images` URLs to be `../images` (or whatever relative path is correct). The `ref` and `relref` shortcodes cannot be used in this context. This works regardless of the site `baseURL` setting.
+1. A quick fix is to a find/replace for the `/images/` path in the slides and prepend the subdirectory to the path, as in `/cis598/images/`. This works as long as the site `baseURL` is not changed. This requires the images to remain in the `static` folder unless they are referenced by other markdown files. Generally I just copy images from `static` to `assets` to fix the problem above but leave a copy in the `static` folder as well. Hugo will merge the two. 
+2. Another workaround would be to move the images into a page bundle as described above, and then convert the `/images` URLs to be `../images` (or whatever relative path is correct). The `ref` and `relref` shortcodes cannot be used in this context. This works regardless of the site `baseURL` setting.
 
 ### Image Link in Logo Template
 
