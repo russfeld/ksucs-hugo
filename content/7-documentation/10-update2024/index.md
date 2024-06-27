@@ -40,6 +40,7 @@ To Upgrade the theme and switch from a Git Submodule to a Hugo Module, do the fo
 6. Once the configuration is updated in `hugo.toml`, delete the existing `config.toml` as it is no longer needed. 
 7. Install the Hugo module using `hugo mod get -u`. This should install the module and create a file `go.sum` that includes the checksums of the module dependencies.
     1. In the future, use `hugo mod get` to get the current version specified, or `hugo mod get -u` to update the version to the latest in GitHub. 
+    2. Running `hugo serve` or `hugo build` will also install the module if needed.
 8. Check for files such as `Dockerfile`, `.github/workflows/gh_pages.yml`, `.gitlab-ci.yml` or similar and update the version of Hugo to v0.126.1.
     1. [Sample Dockerfile](https://github.com/russfeld/ksucs-hugo/blob/master/Dockerfile) that works with Hugo modules instead of git submodules.
 
@@ -75,23 +76,21 @@ These errors can be switched to warnings in `hugo.toml` but it is best to deal w
 
 ### Updates to `youtube` shortcode
 
-Updated 2024-06-17 - It looks like this may not need fixed after all?
-
-The `youtube` shortcode may also need to be updated as described above. 
+The `youtube` shortcode may also need to be updated as described above, but in the other direction. 
 
 To fix this, the following regex find/replace can be used in VS Code:
 
 Search:
 
 ```
-\{\{<\s*youtube (.*)\s*>\}\}
+\{\{%\s*youtube (.*)\s*%\}\}
 
 ```
 
 Replace:
 
 ```
-{{%/* youtube $1 */%}}
+{{</* youtube $1 */>}}
 ```
 
 ### Updates to Images and Other Resources
