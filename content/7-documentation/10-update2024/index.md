@@ -62,7 +62,7 @@ To fix this, the following regex find/replace can be used in VS Code:
 Search:
 
 ```
-\{\{<\s*(rel)?ref (.*)\s*>\}\}
+\{\{<\s*(rel)?ref ([^>]*)\s*>\}\}
 
 ```
 
