@@ -1,6 +1,10 @@
 github.com/divinerites/plausible-hugo v1.19.6 h1:Ju9p0zCXUByYYOcwPIiX39a6hMTLIcTK3y9tBegRH5U=
 github.com/divinerites/plausible-hugo v1.19.6/go.mod h1:cxr+YB3FUwbLon8KCs4pV4Ankbkq6lJxTQUpNb5KqPo=
+github.com/divinerites/plausible-hugo v1.20.0 h1:nkoQ/5/ti2nRF8DRiErEemOb1/EAbViUL05aSbiiRuU=
+github.com/divinerites/plausible-hugo v1.20.0/go.mod h1:cxr+YB3FUwbLon8KCs4pV4Ankbkq6lJxTQUpNb5KqPo=
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240529181704-8409ec294400 h1:vvkI7ADn3d+HO53v+vtCsf/5L0XDXU32hCjcHC2PE1I=
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240529181704-8409ec294400/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240529202521-2cadd589dabc h1:pLh7yrzXygVmX6t5vUc2xviQ5bqZp5EyVc8OhQVn+BU=
 github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240529202521-2cadd589dabc/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240830193943-5dcc2bd76f72 h1:zUO63kTwRp6CRPCgxm4TGAIHBrkY9SkrJHu+SltkBb4=
+github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240830193943-5dcc2bd76f72/go.mod h1:h8Ds5Jx7bTVFTouThBJ2f1KYa2GNxIi/RMbHkNcNVJ8=
