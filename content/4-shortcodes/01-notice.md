@@ -24,4 +24,6 @@ renders as
 A disclaimer that will not be visible on the embedded version of the page
 {{% /notice %}}
 
-That item will not render on the [embed]({{% ref "4-shortcodes/01-notice" "embed" %}}) version of this page.
+TODO FIXME embed output format below
+
+That item will not render on the [embed]({{% ref "4-shortcodes/01-notice" %}}) version of this page.

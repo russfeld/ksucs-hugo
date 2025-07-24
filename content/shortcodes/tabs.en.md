@@ -1,13 +1,10 @@
 +++
-description = "Show content in tabbed views"
-title = "Tabs"
+categories = ['howto', 'reference']
+description = 'Show content in tabbed views'
+title = 'Tabs'
 +++
 
 The `tabs` shortcode displays arbitrary content in an unlimited number of tabs.
-
-This comes in handy eg. for providing code snippets for multiple languages.
-
-If you just want a single tab you can instead call the [`tab` shortcode](shortcodes/tab) standalone.
 
 {{< tabs title="hello." >}}
 {{% tab title="py" %}}
@@ -34,10 +31,6 @@ printf("Hello World!");
 {{< /tabs >}}
 
 ## Usage
-
-While the examples are using shortcodes with named parameter you are free to also call this shortcode from your own partials.
-
-See the [`tab` shortcode](shortcodes/tab) for a description of the parameter for nested tabs.
 
 {{< tabs groupid="shortcode-parameter">}}
 {{% tab title="shortcode" %}}
@@ -89,6 +82,10 @@ printf"Hello World!");
 {{% /tab %}}
 {{< /tabs >}}
 
+If you just want a single tab you can instead call the [`tab` shortcode](shortcodes/tab) standalone.
+
+Also follow the above link to see the parameter for a nested tab.
+
 ### Parameter
 
 | Name                  | Default              | Notes       |
@@ -107,6 +104,9 @@ printf"Hello World!");
 See what happens to the tab views while you select different tabs.
 
 While pressing a tab of Group A switches all tab views of Group A in sync (if the tab is available), the tabs of Group B are left untouched.
+
+> [!note]
+> The selected tab will be [stored in the reader's browser](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/storedinformation).
 
 {{< tabs >}}
 {{% tab title="Group A, Tab View 1" %}}

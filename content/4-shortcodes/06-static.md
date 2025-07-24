@@ -5,7 +5,7 @@ weight: 80
 description: "(DEPRECATED) Shortcode to access Static Content"
 ---
 
-The `static` shortcode has been deprecated. All static content should be stored in the `static` folder outside of `content`, and with the `canonifyURLs` option set to `true` in the site config, they can be referenced directly at the root of the site.
+The `static` shortcode has been deprecated. All static content should be stored in the `assets` folder outside of `content`, and with the `canonifyURLs` option set to `true` in the site config, they can be referenced directly at the root of the site.
 
 For example, the file at `/static/images/core-logo-on-white.svg` can be referenced using:
 

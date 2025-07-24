@@ -1,4 +1,4 @@
-FROM hugomods/hugo:0.126.1 as build
+FROM hugomods/hugo:0.148.1 as build
 
 COPY ./ /site
 WORKDIR /site

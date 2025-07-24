@@ -20,3 +20,7 @@ It also uses an override for the Hugo YouTube shortcode to hide any embedded You
 ## Embedded View
 
 The embedded view renders the page without any additional navigation elements. This view is meant to be embedded in an `<iframe>` directly in another site, such as an LMS. It also removes any `noiframe` notices. See `custom.css` for details.
+
+## Test YouTube Embed
+
+{{< youtube dQw4w9WgXcQ >}}
