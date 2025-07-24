@@ -5,7 +5,7 @@ type = 'chapter'
 weight = 29
 
 [params]
-  menuPre = "4A. "
+  menuPre = "<b>4A. </b>"
   ordersectionsby = 'title'
 +++
 
